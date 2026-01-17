@@ -2,6 +2,10 @@ baseURL = "https://joaovsbuarque2.github.io/joaobuarque-thinking/"
 defaultContentLanguage = "pt-br"
 theme = "LoveIt"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 [languages]
   [languages.pt-br]
     languageCode = "pt-br"
