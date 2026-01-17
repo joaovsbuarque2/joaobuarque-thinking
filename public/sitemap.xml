@@ -1,9 +1,16 @@
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    ><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/</loc><lastmod>2026-01-17T09:25:27-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/posts/</loc><lastmod>2026-01-17T09:25:27-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/posts/primeiro-post/</loc><lastmod>2026-01-17T09:25:27-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/</loc></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://localhost:1313/joaobuarque-thinking/pt-br/sitemap.xml</loc>
+    
+      <lastmod>2026-01-17T09:25:27-03:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/joaobuarque-thinking/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

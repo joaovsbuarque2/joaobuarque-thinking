@@ -1,4 +1,16 @@
 baseURL = "https://joaovsbuarque2.github.io/joaobuarque-thinking/"
-languageCode = "pt-br"
-title = "João Buarque Thinking"
+defaultContentLanguage = "pt-br"
 theme = "LoveIt"
+
+[languages]
+  [languages.pt-br]
+    languageCode = "pt-br"
+    languageName = "Português (Brasil)"
+    title = "João Buarque Thinking"
+    weight = 1
+
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    title = "João Buarque Thinking"
+    weight = 2
