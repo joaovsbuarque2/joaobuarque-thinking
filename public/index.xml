@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>João Buarque Thinking</title>
+        <link>http://localhost:1313/joaobuarque-thinking/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sat, 17 Jan 2026 09:25:27 -0300</lastBuildDate>
+            <atom:link href="http://localhost:1313/joaobuarque-thinking/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Primeiro Post</title>
+    <link>http://localhost:1313/joaobuarque-thinking/posts/primeiro-post/</link>
+    <pubDate>Sat, 17 Jan 2026 09:25:27 -0300</pubDate>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/posts/primeiro-post/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
