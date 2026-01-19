@@ -85,6 +85,9 @@ Para organizar melhor as ideias, utilizo as seguintes categorias principais, com
 
 Essas categorias e tags ajudam a navegar pelas reflexões e ideias registradas ao longo dos anos.
 
+## 🤝 Contribuição
+
+Este é um projeto pessoal, mas ideias e sugestões são bem-vindas! Abra uma issue ou envie um pull request.
 
 ## 📜 Licença
 
