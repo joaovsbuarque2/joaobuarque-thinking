@@ -1,3 +1,17 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Desenvolvimento - Tag - João Buarque Thinking</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/desenvolvimento/</link><description>Desenvolvimento - Tag - João Buarque Thinking</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 19 Jan 2026 15:00:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/desenvolvimento/" rel="self" type="application/rss+xml"/><item><title>Sobre Mim</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/</link><pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate><author>xxxx</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/</guid><description>Olá, eu sou o João Vitor da Silva Buarque Desenvolvedor Front-End e Mobile com mais de 4 anos de experiência no ecossistema JavaScript, atuando com React e React Native em aplicações web e mobile em produção.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Desenvolvimento - Tag - João Buarque Thinking</title>
+        <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/desenvolvimento/</link>
+        <description>Desenvolvimento - Tag - João Buarque Thinking</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 19 Jan 2026 15:00:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/desenvolvimento/" rel="self" type="application/rss+xml" /><item>
+    <title>Sobre Mim</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/</link>
+    <pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate>
+    <author>xxxx</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/</guid>
+    <description><![CDATA[Olá, eu sou o João Vitor da Silva Buarque Desenvolvedor Front-End e Mobile com mais de 4 anos de experiência no ecossistema JavaScript, atuando com React e React Native em aplicações web e mobile em produção.
 Minha Jornada Minha história profissional tem duas paixões: a tecnologia e a segurança. Hoje, me dedico ao desenvolvimento de software, mas trago comigo uma experiência sólida em monitoramento e proteção patrimonial.
-Especialização Tech Stack Frontend: React, JavaScript (ES6+), TypeScript, HTML5, CSS3/SASS Mobile: React Native Backend: Node.</description></item></channel></rss>
+Especialização Tech Stack Frontend: React, JavaScript (ES6+), TypeScript, HTML5, CSS3/SASS Mobile: React Native Backend: Node.]]></description>
+</item>
+</channel>
+</rss>
