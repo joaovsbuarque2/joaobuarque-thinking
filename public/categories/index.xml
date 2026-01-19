@@ -1,46 +1,46 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Categoria - João Buarque Thinking</title>
-        <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/</link>
+        <link>http://localhost:1313/joaobuarque-thinking/categories/</link>
         <description>Categories - Categoria - João Buarque Thinking</description>
-        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 19 Jan 2026 15:00:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 19 Jan 2026 15:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/joaobuarque-thinking/categories/" rel="self" type="application/rss+xml" /><item>
     <title>Carreira</title>
-    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/carreira/</link>
+    <link>http://localhost:1313/joaobuarque-thinking/categories/carreira/</link>
     <pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate>
     <author>xxxx</author>
-    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/carreira/</guid>
+    <guid>http://localhost:1313/joaobuarque-thinking/categories/carreira/</guid>
     <description><![CDATA[👔 Carreira Bem-vindo à seção de Carreira. Aqui você encontrará reflexões sobre vigilância, trabalho, jornada dev e temas relacionados à carreira profissional.]]></description>
 </item>
 <item>
     <title>Cotidiano</title>
-    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cotidiano/</link>
+    <link>http://localhost:1313/joaobuarque-thinking/categories/cotidiano/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cotidiano/</guid>
+    <guid>http://localhost:1313/joaobuarque-thinking/categories/cotidiano/</guid>
     <description><![CDATA[🏠 Cotidiano Bem-vindo à seção de Cotidiano. Aqui você encontrará reflexões sobre futebol, política, família, academia, e-sports, RPG de mesa e assuntos do dia a dia.]]></description>
 </item>
 <item>
     <title>Cultura Pop</title>
-    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cultura-pop/</link>
+    <link>http://localhost:1313/joaobuarque-thinking/categories/cultura-pop/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cultura-pop/</guid>
+    <guid>http://localhost:1313/joaobuarque-thinking/categories/cultura-pop/</guid>
     <description><![CDATA[🎬 Cultura Pop Bem-vindo à seção de Cultura Pop. Aqui você encontrará reflexões sobre games, filmes, séries, animes, música, podcasts e entretenimento pop.]]></description>
 </item>
 <item>
     <title>Finanças</title>
-    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/financas/</link>
+    <link>http://localhost:1313/joaobuarque-thinking/categories/financas/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/financas/</guid>
+    <guid>http://localhost:1313/joaobuarque-thinking/categories/financas/</guid>
     <description><![CDATA[💰 Finanças Bem-vindo à seção de Finanças. Aqui você encontrará reflexões sobre empreendedorismo, economia, investimentos, SaaS, micro-SaaS e outros temas relacionados.]]></description>
 </item>
 <item>
     <title>Tecnologia</title>
-    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/tecnologia/</link>
+    <link>http://localhost:1313/joaobuarque-thinking/categories/tecnologia/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/tecnologia/</guid>
+    <guid>http://localhost:1313/joaobuarque-thinking/categories/tecnologia/</guid>
     <description><![CDATA[💻 Tecnologia Bem-vindo à seção de Tecnologia. Aqui você encontrará reflexões sobre programação, IA, Linux, terminal, desenvolvimento, OpenSource e outros tópicos tech.]]></description>
 </item>
 </channel>
