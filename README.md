@@ -38,11 +38,6 @@ Os arquivos serão criados na pasta `public/`.
 - `public/`: Site gerado (não edite manualmente).
 - `hugo.toml`: Configurações do Hugo.
 
-<<<<<<< HEAD
-## 🤝 Contribuição
-
-Este é um projeto pessoal, mas ideias e sugestões são bem-vindas! Abra uma issue ou envie um pull request.
-=======
 ## 🏷️ Categorias e Tags
 
 Para organizar melhor as ideias, utilizo as seguintes categorias principais, com tags relacionadas:
@@ -90,7 +85,6 @@ Para organizar melhor as ideias, utilizo as seguintes categorias principais, com
 
 Essas categorias e tags ajudam a navegar pelas reflexões e ideias registradas ao longo dos anos.
 
->>>>>>> 3b638b1 (fix: update readme)
 
 ## 📜 Licença
 
