@@ -16,6 +16,8 @@ Para essa primeira postagem no meu site, pretendo fazer pelo menos uma ou duas p
 
 # Privacidade em Xeque: Como Shadow APIs e Falhas Estruturais Alimentam o Mercado Negro de Dados
 
+![Ilustração sobre privacidade de dados](/img/ChatGPT%20Image%2020%20de%20jan.%20de%202026,%2018_03_08.png)
+
 ## Por que o Problema Não É um Site Ilegal — É a Arquitetura que o Sustenta
 
 Recentemente, digitei meu nome em um site como o "Tudo Sobre Todos" e, em segundos, o monitor me devolveu minha vida inteira: CPF, endereço residencial, estimativa de renda e muito mais. Muitos acreditam que vazamentos de dados são eventos pontuais, como um "hack" cinematográfico contra uma grande instituição. A realidade é muito mais banal e, por isso, mais perigosa. O sucesso desses agregadores de dados é o sintoma de uma arquitetura de dados doente, fundamentada em endpoints sem mascaramento e Shadow APIs expostas.
