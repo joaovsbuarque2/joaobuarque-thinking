@@ -8,7 +8,7 @@ tags = ['privacidade', 'segurança', 'dados', 'TI', 'LGPD']
 
 # Minhas Impressões Após a Primeira Postagem no Medium
 
-Acabei de publicar minha primeira postagem no Medium sobre privacidade de dados e o mercado negro alimentado por falhas estruturais como Shadow APIs. Foi uma experiência interessante, mas realista sobre o alcance. Meu LinkedIn e Medium não estão muito ativos ultimamente – na verdade, bem esquecidos –, então não espero que o post vá viral ou gere muito engajamento imediato. Em vez disso, vejo meu site pessoal como um diário online, um espaço onde posso postar minhas reflexões e pensamentos sem pressão.
+Acabei de publicar minha primeira postagem no Medium sobre privacidade de dados e o mercado negro alimentado por falhas estruturais como Shadow APIs. Mas realista sobre o alcance. Meu LinkedIn e Medium não estão muito ativos ultimamente – na verdade, bem esquecidos –, então não espero que o post vá viral ou gere muito engajamento imediato. Em vez disso, vejo meu site pessoal como um diário online, um espaço onde posso postar minhas reflexões e pensamentos sem pressão.
 
 Essa postagem surgiu depois de ouvir um podcast no trabalho e refletir sobre o tema. Como sou do meio de TI, decidi pesquisar mais a fundo, mergulhando em conceitos como Shadow APIs, exposição excessiva de dados e ausência de rate limiting. Foi fascinante descobrir como essas vulnerabilidades estruturais sustentam o ecossistema de vazamentos de dados no Brasil e além.
 
