@@ -1,1 +1,39 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Tags - Tag - João Buarque Thinking</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/</link><description>Tags - Tag - João Buarque Thinking</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 19 Jan 2026 15:00:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/" rel="self" type="application/rss+xml"/><item><title>Carreira</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/carreira/</link><pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate><author>xxxx</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/carreira/</guid><description></description></item><item><title>Desenvolvimento</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/desenvolvimento/</link><pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate><author>xxxx</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/desenvolvimento/</guid><description></description></item><item><title>React</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/react/</link><pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate><author>xxxx</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/react/</guid><description></description></item><item><title>React-Native</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/react-native/</link><pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate><author>xxxx</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/react-native/</guid><description></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - João Buarque Thinking</title>
+        <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/</link>
+        <description>Tags - Tag - João Buarque Thinking</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 19 Jan 2026 15:00:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Carreira</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/carreira/</link>
+    <pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate>
+    <author>xxxx</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/carreira/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Desenvolvimento</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/desenvolvimento/</link>
+    <pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate>
+    <author>xxxx</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/desenvolvimento/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>React</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/react/</link>
+    <pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate>
+    <author>xxxx</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/react/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>React-Native</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/react-native/</link>
+    <pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate>
+    <author>xxxx</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/react-native/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
