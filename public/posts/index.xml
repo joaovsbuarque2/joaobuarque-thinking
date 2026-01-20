@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Posts - João Buarque Thinking</title>
+        <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/</link>
+        <description>Posts | João Buarque Thinking</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 20 Jan 2026 12:00:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</link>
+    <pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate>
+    <author>xxxx</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</guid>
+    <description><![CDATA[Minhas Impressões Após a Primeira Postagem no Medium Acabei de publicar minha primeira postagem no Medium sobre privacidade de dados e o mercado negro alimentado por falhas estruturais como Shadow APIs. Mas realista sobre o alcance. Meu LinkedIn e Medium não estão muito ativos ultimamente – na verdade, bem esquecidos –, então não espero que o post vá viral ou gere muito engajamento imediato. Em vez disso, vejo meu site pessoal como um diário online, um espaço onde posso postar minhas reflexões e pensamentos sem pressão.]]></description>
+</item>
+<item>
+    <title>Sobre Mim</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/</link>
+    <pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate>
+    <author>xxxx</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/</guid>
+    <description><![CDATA[Olá, eu sou o João Vitor da Silva Buarque Desenvolvedor Front-End e Mobile com mais de 4 anos de experiência no ecossistema JavaScript, atuando com React e React Native em aplicações web e mobile em produção.
+Minha Jornada Minha história profissional tem duas paixões: a tecnologia e a segurança. Hoje, me dedico ao desenvolvimento de software, mas trago comigo uma experiência sólida em monitoramento e proteção patrimonial.
+Especialização Tech Stack Frontend: React, JavaScript (ES6+), TypeScript, HTML5, CSS3/SASS Mobile: React Native Backend: Node.]]></description>
+</item>
+</channel>
+</rss>

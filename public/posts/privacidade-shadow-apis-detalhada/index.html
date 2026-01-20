@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada - João Buarque Thinking</title><meta name="Description" content="This is my cool site"><meta property="og:url" content="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/">
+  <meta property="og:site_name" content="João Buarque Thinking">
+  <meta property="og:title" content="Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada">
+  <meta property="og:description" content="Minhas Impressões Após a Primeira Postagem no Medium Acabei de publicar minha primeira postagem no Medium sobre privacidade de dados e o mercado negro alimentado por falhas estruturais como Shadow APIs. Mas realista sobre o alcance. Meu LinkedIn e Medium não estão muito ativos ultimamente – na verdade, bem esquecidos –, então não espero que o post vá viral ou gere muito engajamento imediato. Em vez disso, vejo meu site pessoal como um diário online, um espaço onde posso postar minhas reflexões e pensamentos sem pressão.">
+  <meta property="og:locale" content="pt_br">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-20T12:00:00-03:00">
+    <meta property="article:modified_time" content="2026-01-20T12:00:00-03:00">
+    <meta property="article:tag" content="Privacidade">
+    <meta property="article:tag" content="Segurança">
+    <meta property="article:tag" content="Dados">
+    <meta property="article:tag" content="TI">
+    <meta property="article:tag" content="LGPD">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada">
+  <meta name="twitter:description" content="Minhas Impressões Após a Primeira Postagem no Medium Acabei de publicar minha primeira postagem no Medium sobre privacidade de dados e o mercado negro alimentado por falhas estruturais como Shadow APIs. Mas realista sobre o alcance. Meu LinkedIn e Medium não estão muito ativos ultimamente – na verdade, bem esquecidos –, então não espero que o post vá viral ou gere muito engajamento imediato. Em vez disso, vejo meu site pessoal como um diário online, um espaço onde posso postar minhas reflexões e pensamentos sem pressão.">
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/" /><link rel="prev" href="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/" /><link rel="stylesheet" href="/joaobuarque-thinking/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada",
+        "inLanguage": "pt-br",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/joaovsbuarque2.github.io\/joaobuarque-thinking\/posts\/privacidade-shadow-apis-detalhada\/"
+        },"genre": "posts","keywords": "privacidade, segurança, dados, TI, LGPD","wordcount":  1415 ,
+        "url": "https:\/\/joaovsbuarque2.github.io\/joaobuarque-thinking\/posts\/privacidade-shadow-apis-detalhada\/","datePublished": "2026-01-20T12:00:00-03:00","dateModified": "2026-01-20T12:00:00-03:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "xxxx"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/joaobuarque-thinking/" title="João Buarque Thinking">My cool site</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a href="javascript:void(0);" class="menu-item theme-switch" title="Trocar tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Selecione o idioma">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/" selected>Português (Brasil)</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/joaobuarque-thinking/" title="João Buarque Thinking">My cool site</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a href="javascript:void(0);" class="menu-item theme-switch" title="Trocar tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Selecione o idioma">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/" selected>Português (Brasil)</option></select>
+                </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Conteúdos</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/joaobuarque-thinking/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>xxxx</a></span>&nbsp;<span class="post-category">incluido em <a href="/joaobuarque-thinking/categories/tecnologia/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tecnologia</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2026-01-20">2026-01-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1415 palavras&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;7 minutos&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Conteúdos</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#por-que-o-problema-não-é-um-site-ilegal--é-a-arquitetura-que-o-sustenta">Por que o Problema Não É um Site Ilegal — É a Arquitetura que o Sustenta</a>
+      <ul>
+        <li><a href="#a-fronteira-digital-por-que-a-justiça-brasileira-para-na-porta-desses-servidores">A Fronteira Digital: Por que a Justiça Brasileira Para na Porta desses Servidores?</a></li>
+        <li><a href="#o-quebra-cabeça-dos-dados-o-perigo-não-está-no-vazamento-mas-na-correlação">O Quebra-Cabeça dos Dados: O Perigo Não Está no Vazamento, mas na Correlação</a></li>
+        <li><a href="#deixando-de-caçar-domínios-para-caçar-padrões">Deixando de Caçar Domínios para Caçar Padrões</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="minhas-impressões-após-a-primeira-postagem-no-medium">Minhas Impressões Após a Primeira Postagem no Medium</h1>
+<p>Acabei de publicar minha primeira postagem no Medium sobre privacidade de dados e o mercado negro alimentado por falhas estruturais como Shadow APIs. Mas realista sobre o alcance. Meu LinkedIn e Medium não estão muito ativos ultimamente – na verdade, bem esquecidos –, então não espero que o post vá viral ou gere muito engajamento imediato. Em vez disso, vejo meu site pessoal como um diário online, um espaço onde posso postar minhas reflexões e pensamentos sem pressão.</p>
+<p>Essa postagem surgiu depois de ouvir um podcast no trabalho e refletir sobre o tema. Como sou do meio de TI, decidi pesquisar mais a fundo, mergulhando em conceitos como Shadow APIs, exposição excessiva de dados e ausência de rate limiting. Foi fascinante descobrir como essas vulnerabilidades estruturais sustentam o ecossistema de vazamentos de dados no Brasil e além.</p>
+<p>Para essa primeira postagem no meu site, pretendo fazer pelo menos uma ou duas por mês. Não é sobre audiência ou monetização; é sobre documentar meu aprendizado e compartilhar insights. Agora, vamos aprofundar no tema, expandindo o que escrevi no Medium com mais detalhes, ponto a ponto.</p>
+<h1 id="privacidade-em-xeque-como-shadow-apis-e-falhas-estruturais-alimentam-o-mercado-negro-de-dados">Privacidade em Xeque: Como Shadow APIs e Falhas Estruturais Alimentam o Mercado Negro de Dados</h1>
+<p><img
+        class="lazyload"
+        src="/joaobuarque-thinking/svg/loading.min.svg"
+        data-src="/joaobuarque-thinking/img/ChatGPT%20Image%2020%20de%20jan.%20de%202026,%2018_03_08.png"
+        data-srcset="/joaobuarque-thinking/img/ChatGPT%20Image%2020%20de%20jan.%20de%202026%2c%2018_03_08.png, /joaobuarque-thinking/img/ChatGPT%20Image%2020%20de%20jan.%20de%202026%2c%2018_03_08.png 1.5x, /joaobuarque-thinking/img/ChatGPT%20Image%2020%20de%20jan.%20de%202026%2c%2018_03_08.png 2x"
+        data-sizes="auto"
+        alt="/joaobuarque-thinking/img/ChatGPT%20Image%2020%20de%20jan.%20de%202026,%2018_03_08.png"
+        title="Ilustração sobre privacidade de dados" width="1536" height="1024" /></p>
+<h2 id="por-que-o-problema-não-é-um-site-ilegal--é-a-arquitetura-que-o-sustenta">Por que o Problema Não É um Site Ilegal — É a Arquitetura que o Sustenta</h2>
+<p>Recentemente, digitei meu nome em um site como o &ldquo;Tudo Sobre Todos&rdquo; e, em segundos, o monitor me devolveu minha vida inteira: CPF, endereço residencial, estimativa de renda e muito mais. Muitos acreditam que vazamentos de dados são eventos pontuais, como um &ldquo;hack&rdquo; cinematográfico contra uma grande instituição. A realidade é muito mais banal e, por isso, mais perigosa. O sucesso desses agregadores de dados é o sintoma de uma arquitetura de dados doente, fundamentada em endpoints sem mascaramento e Shadow APIs expostas.</p>
+<h3 id="a-fronteira-digital-por-que-a-justiça-brasileira-para-na-porta-desses-servidores">A Fronteira Digital: Por que a Justiça Brasileira Para na Porta desses Servidores?</h3>
+<p>A pergunta que ecoa nos fóruns de segurança é inevitável: &ldquo;Como a PF ainda não derrubou esses caras?&rdquo;. A resposta curta é que o site não está &ldquo;aqui&rdquo;. Plataformas como o Tudo Sobre Todos utilizam domínios internacionais (como .info ou .se) e hospedagens conhecidas como Bulletproof Hostings — hospedagens &ldquo;à prova de balas&rdquo;. Localizados em países com pouca ou nenhuma cooperação jurídica com o Brasil, como Rússia, Ucrânia ou certas jurisdições no Leste Europeu, esses servidores ignoram notificações da LGPD ou ordens judiciais brasileiras. Para a justiça, é como tentar fechar uma loja no Brasil cujo dono, estoque e caixa estão em outro planeta.</p>
+<p>Além disso, tentar derrubar esses sites frequentemente esbarra no &ldquo;Efeito Hidra&rdquo;: corte uma cabeça e três nascem no lugar. Quando a Anatel ou provedores bloqueiam o DNS de um domínio como tudosobretodos.info, os administradores espelham o conteúdo para um novo endereço em minutos. A arquitetura desses sites é projetada para ser leve e replicável, com o banco de dados — o verdadeiro ativo — protegido e criptografado em servidores ocultos por camadas de proxies e serviços de CDN, como o Cloudflare, quando utilizados de forma abusiva.</p>
+<p>Essas ferramentas funcionam como um escudo que mascara o Origin IP (o endereço real do servidor), fazendo com que as autoridades vejam apenas os nós da rede de distribuição, não a localização física da máquina. Isso transforma o rastreio em um desafio hercúleo, exigindo ordens judiciais internacionais que provedores muitas vezes demoram a processar devido à jurisdição da sede.</p>
+<h3 id="o-quebra-cabeça-dos-dados-o-perigo-não-está-no-vazamento-mas-na-correlação">O Quebra-Cabeça dos Dados: O Perigo Não Está no Vazamento, mas na Correlação</h3>
+<p>O grande diferencial dessas plataformas não é apenas possuir o dado, mas saber como conectá-lo. Elas dominam a arte do Enriquecimento de Dados: um processo que cruza informações de fontes distintas — como um vazamento antigo de um grande e-commerce, uma base esquecida do DETRAN e registros públicos da Receita Federal. Ao correlacionar essas camadas, o site cria um perfil sintético tão detalhado que nem o próprio governo o possui de forma tão acessível.</p>
+<p>Essa eficiência operacional nasce de três falhas críticas que a maioria das empresas ignora:</p>
+<h4 id="1-shadow-apis-as-portas-dos-fundos-esquecidas">1. Shadow APIs: As Portas dos Fundos Esquecidas</h4>
+<p>Muitas instituições operam as chamadas Shadow APIs: interfaces criadas para testes ou integrações internas que nunca foram desativadas ou protegidas adequadamente. Esses sites não &ldquo;invadem&rdquo; sistemas no sentido tradicional; eles apenas fazem as perguntas certas para essas APIs esquecidas que, sem autenticação robusta, entregam respostas completas.</p>
+<ul>
+<li><strong>Como Funciona</strong>: Uma Shadow API pode ser um endpoint antigo usado para debugging durante o desenvolvimento, mas deixado ativo em produção. Por exemplo, uma API para consultar dados de usuários em um sistema legado que aceita consultas sem tokens ou com validação fraca.</li>
+<li><strong>Exemplo Real</strong>: Casos como o vazamento de dados do Facebook em 2019, onde APIs não documentadas foram exploradas. No Brasil, sistemas governamentais com APIs de consulta pública sem rate limiting tornam-se presas fáceis.</li>
+<li><strong>Impacto</strong>: É o crime por omissão técnica. Uma empresa lança um produto, esquece de auditar suas APIs, e anos depois, criminosos descobrem essas portas abertas.</li>
+</ul>
+<h4 id="2-exposição-excessiva-de-dados-excessive-data-exposure">2. Exposição Excessiva de Dados (Excessive Data Exposure)</h4>
+<p>Aqui entra o conceito de Data Sparing: quando um sistema entrega mais do que o solicitado. Você pede a simples validação de um CPF e a API, por um erro de design, devolve o nome da mãe, o endereço completo e o score de crédito.</p>
+<ul>
+<li><strong>Mecanismo</strong>: Isso ocorre devido a serialização inadequada de objetos JSON ou XML, onde o backend retorna todos os campos do modelo de dados em vez de apenas os necessários.</li>
+<li><strong>Vulnerabilidades Conhecidas</strong>: Plataformas globais como o Discord sofreram com isso, expondo dados de usuários através de APIs mal configuradas. Em sistemas legados de órgãos públicos e empresas de médio porte, essa fragilidade é amplificada.</li>
+<li><strong>Consequências</strong>: Um único endpoint mal projetado pode vazar dados de milhões de usuários, fornecendo matéria-prima para agregadores.</li>
+</ul>
+<h4 id="3-a-ausência-de-rate-limit">3. A Ausência de &ldquo;Rate Limit&rdquo;</h4>
+<p>Sem o Rate Limiting (limite de requisições), o ecossistema torna-se um banquete para scripts automatizados. Enquanto um humano levaria anos para consultar mil nomes, um bot consegue realizar milhões de consultas por dia sem ser bloqueado ou notado pelos sistemas de monitoramento.</p>
+<ul>
+<li><strong>Funcionalidade</strong>: Rate limiting define quantas requisições um IP, usuário ou token pode fazer em um período (ex.: 100 por minuto).</li>
+<li><strong>Falta de Implementação</strong>: Muitos sistemas brasileiros, especialmente governamentais, não implementam isso, permitindo scraping em escala industrial.</li>
+<li><strong>Resultado</strong>: Não é uma &ldquo;explosão&rdquo; do cofre, mas um &ldquo;vazamento gota a gota&rdquo; que enche os reservatórios desses sites criminosos.</li>
+</ul>
+<h3 id="deixando-de-caçar-domínios-para-caçar-padrões">Deixando de Caçar Domínios para Caçar Padrões</h3>
+<p>O contra-ataque eficaz não deve ser apenas jurídico, mas, acima de tudo, algorítmico. Em vez de gastar energia tentando derrubar sites que renascem em minutos, a ANPD e órgãos reguladores precisam focar no Monitoramento de Comportamento.</p>
+<ul>
+<li>
+<p><strong>Soluções Técnicas</strong>:</p>
+<ul>
+<li>Implementar camadas de Inteligência Artificial que identifiquem anomalias em tempo real: se um único IP ou token realiza 1.000 consultas por minuto, o bloqueio deve ser automático e imediato.</li>
+<li>Usar Web Application Firewalls (WAF) com regras personalizadas para detectar padrões de scraping.</li>
+<li>Adotar OAuth 2.0 e JWT para autenticação robusta em todas as APIs.</li>
+</ul>
+</li>
+<li>
+<p><strong>Urgência em Sistemas Governamentais</strong>: Muitos operam sobre sistemas legados (tecnologias de 10 ou 15 anos atrás) que foram desenhados para funcionar, não para resistir a ataques modernos de scraping. É inaceitável que bases estatais sirvam de &ldquo;back-end gratuito&rdquo; para criminosos por falta de filtros básicos de segurança.</p>
+</li>
+<li>
+<p><strong>Responsabilização</strong>:</p>
+<ul>
+<li><strong>Quem Guarda o Dado</strong>: A conta da insegurança não pode ficar apenas com o cidadão. Se o agregador criminoso &ldquo;bebe&rdquo; de uma fonte específica — seja uma API de um órgão público, um bureau de crédito ou o banco de dados de um grande varejista — essa instituição deve ser severamente auditada e responsabilizada. A omissão técnica que permite o scraping desenfreado é uma violação direta da LGPD.</li>
+<li><strong>Diplomacia Cibernética</strong>: Fortalecer a cooperação internacional para que a Polícia Federal tenha braços operacionais junto a agências como a Europol, atacando a infraestrutura física desses sites.</li>
+</ul>
+</li>
+</ul>
+<p>Enquanto o Brasil tratar o vazamento de dados como um &ldquo;incidente de TI&rdquo; e não como uma ameaça à segurança nacional, sites como o Tudo Sobre Todos prosperarão. O problema é estrutural. A solução exige que cada linha de código e cada API pública seja desenhada com a consciência de que um dado exposto hoje é uma arma nas mãos de criminosos amanhã. Nossa privacidade é o alicerce da nossa segurança digital — e ela precisa ser defendida no nível da arquitetura, não apenas no papel.</p>
+<p>Você já pesquisou seu nome em algum desses sites? O que encontrou te assustou? Deixe seu comentário e vamos debater como cobrar maior segurança das nossas instituições.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Atualizado em 2026-01-20</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Compartilhe em X" data-sharer="x" data-url="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/" data-title="Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada" data-hashtags="privacidade,segurança,dados,TI,LGPD"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Compartilhe em Threads" data-sharer="threads" data-url="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/" data-title="Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Compartilhe em Facebook" data-sharer="facebook" data-url="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/" data-hashtag="privacidade"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Compartilhe em Hacker News" data-sharer="hackernews" data-url="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/" data-title="Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Compartilhe em Line" data-sharer="line" data-url="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/" data-title="Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@15.14.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Compartilhe em 微博" data-sharer="weibo" data-url="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/" data-title="Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Compartilhe em Diaspora" data-sharer="diaspora" data-url="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/" data-title="Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada" data-description=""><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=https%3a%2f%2fjoaovsbuarque2.github.io%2fjoaobuarque-thinking%2fposts%2fprivacidade-shadow-apis-detalhada%2f&amp;text=Privacidade%20em%20Xeque%3a%20Shadow%20APIs%20e%20o%20Mercado%20Negro%20de%20Dados%20-%20An%c3%a1lise%20Detalhada" target="_blank" title="Compartilhe em Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/joaobuarque-thinking/tags/privacidade/">Privacidade</a>,&nbsp;<a href="/joaobuarque-thinking/tags/seguran%C3%A7a/">Segurança</a>,&nbsp;<a href="/joaobuarque-thinking/tags/dados/">Dados</a>,&nbsp;<a href="/joaobuarque-thinking/tags/ti/">TI</a>,&nbsp;<a href="/joaobuarque-thinking/tags/lgpd/">LGPD</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Voltar</a></span>&nbsp;|&nbsp;<span><a href="/joaobuarque-thinking/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/joaobuarque-thinking/posts/sobre-mim/" class="prev" rel="prev" title="Sobre Mim"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Sobre Mim</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Possibilitado por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.131.0">Hugo</a> | Tema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.1-DEV"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/joaobuarque-thinking/" target="_blank">xxxx</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Voltar ao topo">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="Ver comentários">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script><script>window.config={"comment":{}};</script><script src="/joaobuarque-thinking/js/theme.min.js"></script></body>
+</html>
