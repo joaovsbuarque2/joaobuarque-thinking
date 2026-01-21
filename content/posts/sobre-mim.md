@@ -1,51 +1,80 @@
 +++
-title = 'Sobre Mim'
+title = 'Currículo - João Buarque'
 date = 2026-01-19T15:00:00-03:00
 draft = false
+author = 'João Buarque'
 categories = ['carreira']
 tags = ['desenvolvimento', 'react', 'react-native', 'carreira']
 +++
 
-# Olá, eu sou o João Vitor da Silva Buarque
+# João Vitor da Silva Buarque
+## Desenvolvedor Front-End & Mobile
 
-Desenvolvedor Front-End e Mobile com mais de 4 anos de experiência no ecossistema JavaScript, atuando com **React** e **React Native** em aplicações web e mobile em produção.
+Desenvolvedor com mais de 4 anos de experiência no ecossistema JavaScript, especializado em **React** e **React Native** para aplicações web e mobile em produção.
 
-## Minha Jornada
+## 🚀 Tech Stack
 
-Minha história profissional tem duas paixões: a tecnologia e a segurança. Hoje, me dedico ao desenvolvimento de software, mas trago comigo uma experiência sólida em monitoramento e proteção patrimonial.
+### Frontend
+- **React**, **JavaScript (ES6+)**, **TypeScript**
+- **HTML5**, **CSS3/SASS**
+- **Next.js**, **Vue.js** (conhecimento)
 
-## Especialização
+### Mobile
+- **React Native** - Apps em produção para iOS e Android
 
-### Tech Stack
-- **Frontend:** React, JavaScript (ES6+), TypeScript, HTML5, CSS3/SASS
-- **Mobile:** React Native
-- **Backend:** Node.js, Go (Golang)
-- **Ferramentas:** Git, VSCode, Scrum/Kanban
+### Backend
+- **Node.js**, **Express**
+- **Go (Golang)** - APIs e microserviços
 
-### Experiência Profissional
+### Ferramentas & Metodologias
+- **Git**, **GitHub**, **GitLab**
+- **VSCode**, **Scrum/Kanban**
+- **Docker** (básico)
 
-**Klever** (Jun 2020 – Jan 2023)
+## 💼 Experiência Profissional
+
+### **Klever** | Desenvolvedor Front-End/Mobile
+*Jun 2020 – Jan 2023*
 - Desenvolvimento do frontend da Exchange Web utilizando React
 - Desenvolvimento mobile no app Klever 4 com React Native
 - Implementação de serviços em Go para integração com protocolos de criptomoedas
+- Manutenção e otimização de performance em aplicações críticas
 
-**Getty** (Jan 2019 – Jun 2020)
-- Progressão de estagiário a Desenvolvedor Júnior em 3 meses
+### **Getty** | Desenvolvedor Júnior → Pleno
+*Jan 2019 – Jun 2020*
+- Progressão de estagiário a Desenvolvedor Pleno em 3 meses
 - Desenvolvimento de aplicações Web modernas com JavaScript
+- Integração com APIs RESTful e otimização de UX
 
-**Freelancer** (2023 – Atual)
+### **Freelancer** | Desenvolvedor Full-Stack
+*2023 – Atual*
 - Projetos sob demanda com Angular, Vue e Node.js
 - Consultoria técnica em arquitetura de front-end
+- Desenvolvimento de landing pages e sistemas web
 
-## Formação
-- Ciências da Computação – UNIP (2019-2021)
-- Análise e Desenvolvimento de Sistemas – Cruzeiro do Sul Virtual (Cursando)
+## 🎓 Formação Acadêmica
 
-## Certificações
-- JavaScript Algorithms and Data Structures (300h) – freeCodeCamp
-- Trilha Especializar (ReactJS, TypeScript, APIs) – Rocketseat
-- SPTech Desenvolvimento Front-end (82h) – DIO
+- **Ciências da Computação** – UNIP (2019-2021)
+- **Análise e Desenvolvimento de Sistemas** – Cruzeiro do Sul Virtual (Cursando)
+
+## 📜 Certificações
+
+- **JavaScript Algorithms and Data Structures** (300h) – freeCodeCamp
+- **Trilha Especializar** (ReactJS, TypeScript, APIs) – Rocketseat
+- **SPTech Desenvolvimento Front-end** (82h) – DIO
+
+## 📋 Currículo Completo
+
+🔗 **[Acessar currículo completo online](https://joaovsbuarque2.github.io/joaobuarque/)**
 
 ---
 
-*"Código escalável, performance e qualidade em primeiro lugar."*
+*"Focado em código escalável, performance e qualidade em primeiro lugar."*
+
+## 📬 Contato
+
+Estou sempre aberto a novas oportunidades e desafios. Vamos conversar!
+
+- **LinkedIn:** [joão-vitor-buarque-36a014206](https://linkedin.com/in/joão-vitor-buarque-36a014206)
+- **GitHub:** [joaovsbuarque2](https://github.com/joaovsbuarque2)
+- **Email:** Disponível no currículo completo

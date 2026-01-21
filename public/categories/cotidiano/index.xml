@@ -1,7 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Cotidiano - Categoria - João Buarque Thinking</title>
-        <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cotidiano/</link>
-        <description>Cotidiano - Categoria - João Buarque Thinking</description>
-        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cotidiano/" rel="self" type="application/rss+xml" /></channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Cotidiano - Categoria - Jardim de Ideias</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cotidiano/</link><description>Cotidiano - Categoria - Jardim de Ideias</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cotidiano/" rel="self" type="application/rss+xml"/></channel></rss>

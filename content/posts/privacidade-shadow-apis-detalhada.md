@@ -2,6 +2,7 @@
 title = 'Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada'
 date = 2026-01-20T12:00:00-03:00
 draft = false
+author = 'João Buarque'
 categories = ['tecnologia']
 tags = ['privacidade', 'segurança', 'dados', 'TI', 'LGPD']
 +++

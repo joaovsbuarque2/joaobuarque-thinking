@@ -2,19 +2,111 @@ baseURL = "https://joaovsbuarque2.github.io/joaobuarque-thinking/"
 defaultContentLanguage = "pt-br"
 theme = "LoveIt"
 
+# Parâmetros do site
+title = "Jardim de Ideias"
+description = "Jardim de Ideias - Um espaço para reflexões e pensamentos"
+
+[params]
+  # site default theme ["auto", "light", "dark"]
+  defaultTheme = "auto"
+  
+  # website description for RSS, SEO, Open Graph and Twitter Cards
+  description = "Jardim de Ideias - Um espaço para reflexões e pensamentos"
+  
+  # website images for Open Graph and Twitter Cards
+  images = ["/images/avatar.png"]
+
+  # Author config
+  [params.author]
+    name = "João Buarque"
+    email = ""
+    link = ""
+
+  # Header config
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    
+    [params.header.title]
+      logo = ""
+      name = "Jardim de Ideias"
+      pre = ""
+      post = ""
+      typeit = true
+
+  # Footer config
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = true
+    copyright = true
+    author = true
+    since = 2022
+
+  # Home page config
+  [params.home]
+    rss = 10
+    
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "/images/avatar.png"
+      title = "João Buarque"
+      subtitle = "Jardim de Ideias - Um espaço para reflexões e pensamentos sobre tecnologia, carreira e vida | [💼 Currículo](https://joaovsbuarque2.github.io/joaobuarque/)"
+      typeit = true
+      social = true
+      disclaimer = ""
+    
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  # TypeIt config
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+  # App icon config
+  [params.app]
+    title = "Jardim de Ideias"
+    noFavicon = false
+    svgFavicon = ""
+    themeColor = "#ffffff"
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
+
+  # Social config
+  [params.social]
+    Github = "joaovsbuarque2"
+    Linkedin = "joão-vitor-buarque-36a014206"
+    Instagram = "joaovitorbuarque"
+    Medium = "joaovitordasilvabuarque"
+    Email = ""
+    RSS = false
+
 [taxonomies]
   category = "categories"
   tag = "tags"
 
 [languages]
-  [languages.pt-br]
+[languages.pt-br]
     languageCode = "pt-br"
     languageName = "Português (Brasil)"
-    title = "João Buarque Thinking"
-    weight = 1
+    title = "Jardim de Ideias"
+    weight = 2
 
-  [languages.en]
+[languages.en]
     languageCode = "en"
     languageName = "English"
-    title = "João Buarque Thinking"
-    weight = 2
+    title = "Garden of Ideas"
+    weight = 1
+
+[[menu.main]]
+    identifier = "categories"
+    name = "Categorias"
+    url = "/categories/"
+    weight = 10

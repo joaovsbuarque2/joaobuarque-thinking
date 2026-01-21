@@ -1,0 +1,86 @@
+# Parâmetros do site João Buarque
+
+[params]
+  # site default theme ["auto", "light", "dark"]
+  defaultTheme = "auto"
+  
+  # website title for Open Graph and Twitter Cards
+  title = "João Buarque"
+  
+  # website description for RSS, SEO, Open Graph and Twitter Cards
+  description = "Jardim de Ideias - Um espaço para reflexões e pensamentos"
+  
+  # website images for Open Graph and Twitter Cards
+  images = ["/images/avatar.png"]
+
+  # Author config
+  [params.author]
+    name = "João Buarque"
+    email = ""
+    link = ""
+
+  # Header config
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    
+    [params.header.title]
+      logo = ""
+      name = "Jardim de Ideias"
+      pre = ""
+      post = ""
+      typeit = true
+
+  # Footer config
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = true
+    copyright = true
+    author = true
+    since = 2022
+
+  # Home page config
+  [params.home]
+    rss = 10
+    
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "/images/avatar.png"
+      title = "João Buarque"
+      subtitle = "Jardim de Ideias - Um espaço para reflexões e pensamentos sobre tecnologia, carreira e vida"
+      typeit = true
+      social = true
+      disclaimer = ""
+    
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  # TypeIt config
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+  # App icon config
+  [params.app]
+    title = "Jardim de Ideias"
+    noFavicon = false
+    svgFavicon = ""
+    themeColor = "#ffffff"
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
+
+  # Social config
+  [params.social]
+    GitHub = ""
+    Linkedin = ""
+    X = ""
+    Instagram = ""
+    Email = ""
+    RSS = true
