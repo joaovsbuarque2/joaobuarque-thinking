@@ -26,8 +26,8 @@ jobs:
 
     - name: Deploy to main branch
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "joaovitordasilvabuarque@gmail.com"
+        git config --local user.name "joaovsbuarque2"
         
         # Remove old public folder if exists
         git rm -r public/ 2>/dev/null || true
