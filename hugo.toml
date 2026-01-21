@@ -4,7 +4,7 @@ theme = "LoveIt"
 
 # Parâmetros do site
 title = "Jardim de Ideias"
-description = "Jardim de Ideias - Um espaço para reflexões e pensamentos"
+description = "Jardim de Ideias - Um espaço para reflexões e pensamentos sobre tecnologia, carreira e vida"
 
 [params]
   # site default theme ["auto", "light", "dark"]

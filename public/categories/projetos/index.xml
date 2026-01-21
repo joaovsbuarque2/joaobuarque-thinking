@@ -1,3 +1,17 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Projetos - Categoria - Jardim de Ideias</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/projetos/</link><description>Projetos - Categoria - Jardim de Ideias</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 20 Jan 2026 21:30:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/projetos/" rel="self" type="application/rss+xml"/><item><title>Colocar no ar também é parte do processo</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/colocar-no-ar/</link><pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/colocar-no-ar/</guid><description>Hoje eu consegui subir mais um site no ar usando GitHub Pages.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Projetos - Categoria - Jardim de Ideias</title>
+        <link>http://localhost:1313/joaobuarque-thinking/categories/projetos/</link>
+        <description>Projetos - Categoria - Jardim de Ideias</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 20 Jan 2026 21:30:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/joaobuarque-thinking/categories/projetos/" rel="self" type="application/rss+xml" /><item>
+    <title>Colocar no ar também é parte do processo</title>
+    <link>http://localhost:1313/joaobuarque-thinking/posts/colocar-no-ar/</link>
+    <pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/posts/colocar-no-ar/</guid>
+    <description><![CDATA[Hoje eu consegui subir mais um site no ar usando GitHub Pages.
 Pode parecer algo simples — e tecnicamente é — mas, para mim, sempre carrega um peso maior do que apenas “fazer deploy”. Essa é a segunda página que eu publico dessa forma. A primeira foi meu currículo. Essa aqui é diferente. Essa aqui é mais pensamento do que vitrine.
-O joaobuarque-thinking nasce como um diário. Um jardim de ideias.</description></item></channel></rss>
+O joaobuarque-thinking nasce como um diário. Um jardim de ideias.]]></description>
+</item>
+</channel>
+</rss>

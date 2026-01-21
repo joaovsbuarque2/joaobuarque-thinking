@@ -1,42 +1,35 @@
 # 🌱 Jardim de Ideias
 
-Bem-vindo ao meu **Jardim de Ideias**! Este é um espaço pessoal onde registro pensamentos, ideias e reflexões que surgem no meu dia a dia. Inspirado em um diário digital, este site serve como um repositório de ideias que brotam como plantas em um jardim – algumas crescem, outras se transformam, e todas são valiosas.
+Bem-vindo ao meu **Jardim de Ideias**! Este é um espaço pessoal onde registro pensamentos, ideias e reflexões sobre tecnologia, carreira e vida. Construído com [Hugo](https://gohugo.io/) usando o tema [LoveIt](https://github.com/dillonzq/LoveIt).
 
-## 📖 Proposta do Projeto
+## 🚀 Deploy Automatizado
 
-O conceito é simples: criar um ambiente acolhedor e organizado para capturar e cultivar ideias. Assim como um jardim requer cuidado e atenção, minhas ideias precisam ser registradas, revisadas e, às vezes, replantadas em novos contextos. Este site é construído com [Hugo](https://gohugo.io/), um gerador de sites estáticos rápido e flexível, utilizando o tema [LoveIt](https://themes.gohugo.io/loveit/) para uma experiência visual elegante e responsiva.
+Este site utiliza **GitHub Actions** para build e deploy automatizado no GitHub Pages. O workflow está configurado em `.github/workflows/hugo.yml`.
 
 ### 🎯 Objetivos
-- **Capturar Ideias**: Um lugar para anotar pensamentos efêmeros antes que se percam.
-- **Organizar Reflexões**: Categorizar e conectar ideias relacionadas.
-- **Compartilhar Conhecimento**: Tornar algumas ideias públicas para inspiração de outros.
-- **Crescer Pessoalmente**: Refletir sobre o progresso das ideias ao longo do tempo.
+- **Capturar Ideias**: Registrar pensamentos e reflexões do dia a dia
+- **Compartilhar Conhecimento**: Posts sobre desenvolvimento de software e tecnologia
+- **Currículo Profissional**: Apresentar minha experiência como desenvolvedor
+- **Networking**: Conectar através das redes sociais
 
-## 🚀 Como Usar
+## 🛠️ Tecnologias
 
-Este projeto é um site Hugo. Para rodá-lo localmente:
-
-1. **Instale o Hugo**: Siga as instruções em [gohugo.io](https://gohugo.io/getting-started/installing/).
-2. **Clone o repositório**: `git clone <url-do-repositorio>`
-3. **Instale dependências do tema** (se necessário): Verifique o arquivo `themes/LoveIt/README.md`.
-4. **Execute o servidor local**:
-   ```bash
-   hugo server
-   ```
-5. **Acesse**: Abra [http://localhost:1313](http://localhost:1313) no seu navegador.
-
-Para gerar o site estático:
-```bash
-hugo
-```
-Os arquivos serão criados na pasta `public/`.
+- **Hugo** - Gerador de sites estáticos
+- **LoveIt Theme** - Tema limpo e elegante
+- **GitHub Pages** - Hospedagem
+- **GitHub Actions** - CI/CD automatizado
 
 ## 📁 Estrutura do Projeto
 
-- `content/`: Posts e páginas do site.
-- `themes/LoveIt/`: Tema utilizado.
-- `public/`: Site gerado (não edite manualmente).
-- `hugo.toml`: Configurações do Hugo.
+```
+├── content/          # Conteúdo do site
+│   └── posts/       # Posts do blog
+├── static/          # Arquivos estáticos
+├── themes/          # Temas Hugo
+├── hugo.toml        # Configuração do Hugo
+├── .github/         # GitHub Actions
+└── public/          # Site gerado (build)
+```
 
 ## 🏷️ Categorias e Tags
 

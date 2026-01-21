@@ -1,1 +1,15 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Privacidade - Tag - Jardim de Ideias</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/privacidade/</link><description>Privacidade - Tag - Jardim de Ideias</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 20 Jan 2026 12:00:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/privacidade/" rel="self" type="application/rss+xml"/><item><title>Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</link><pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</guid><description>Minhas Impressões Após a Primeira Postagem no Medium Acabei de publicar minha primeira postagem no Medium sobre privacidade de dados e o mercado negro alimentado por falhas estruturais como Shadow APIs. Mas realista sobre o alcance. Meu LinkedIn e Medium não estão muito ativos ultimamente – na verdade, bem esquecidos –, então não espero que o post vá viral ou gere muito engajamento imediato. Em vez disso, vejo meu site pessoal como um diário online, um espaço onde posso postar minhas reflexões e pensamentos sem pressão.</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Privacidade - Tag - Jardim de Ideias</title>
+        <link>http://localhost:1313/joaobuarque-thinking/tags/privacidade/</link>
+        <description>Privacidade - Tag - Jardim de Ideias</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 20 Jan 2026 12:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/joaobuarque-thinking/tags/privacidade/" rel="self" type="application/rss+xml" /><item>
+    <title>Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada</title>
+    <link>http://localhost:1313/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</link>
+    <pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</guid>
+    <description><![CDATA[Minhas Impressões Após a Primeira Postagem no Medium Acabei de publicar minha primeira postagem no Medium sobre privacidade de dados e o mercado negro alimentado por falhas estruturais como Shadow APIs. Mas realista sobre o alcance. Meu LinkedIn e Medium não estão muito ativos ultimamente – na verdade, bem esquecidos –, então não espero que o post vá viral ou gere muito engajamento imediato. Em vez disso, vejo meu site pessoal como um diário online, um espaço onde posso postar minhas reflexões e pensamentos sem pressão.]]></description>
+</item>
+</channel>
+</rss>

@@ -1,1 +1,87 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Tags - Tag - Jardim de Ideias</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/</link><description>Tags - Tag - Jardim de Ideias</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 20 Jan 2026 21:30:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/" rel="self" type="application/rss+xml"/><item><title>Aprendizado</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/aprendizado/</link><pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/aprendizado/</guid><description></description></item><item><title>Github-Pages</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/github-pages/</link><pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/github-pages/</guid><description></description></item><item><title>Hugo</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/hugo/</link><pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/hugo/</guid><description></description></item><item><title>Processo</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/processo/</link><pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/processo/</guid><description></description></item><item><title>Dados</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/dados/</link><pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/dados/</guid><description></description></item><item><title>LGPD</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/lgpd/</link><pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/lgpd/</guid><description></description></item><item><title>Privacidade</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/privacidade/</link><pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/privacidade/</guid><description></description></item><item><title>Segurança</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/seguran%C3%A7a/</link><pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/seguran%C3%A7a/</guid><description></description></item><item><title>TI</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/ti/</link><pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/ti/</guid><description></description></item><item><title>Carreira</title><link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/carreira/</link><pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate><author>João Buarque</author><guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/carreira/</guid><description></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Jardim de Ideias</title>
+        <link>http://localhost:1313/joaobuarque-thinking/tags/</link>
+        <description>Tags - Tag - Jardim de Ideias</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 20 Jan 2026 21:30:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/joaobuarque-thinking/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Aprendizado</title>
+    <link>http://localhost:1313/joaobuarque-thinking/tags/aprendizado/</link>
+    <pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/tags/aprendizado/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Github-Pages</title>
+    <link>http://localhost:1313/joaobuarque-thinking/tags/github-pages/</link>
+    <pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/tags/github-pages/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Hugo</title>
+    <link>http://localhost:1313/joaobuarque-thinking/tags/hugo/</link>
+    <pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/tags/hugo/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Processo</title>
+    <link>http://localhost:1313/joaobuarque-thinking/tags/processo/</link>
+    <pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/tags/processo/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Dados</title>
+    <link>http://localhost:1313/joaobuarque-thinking/tags/dados/</link>
+    <pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/tags/dados/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>LGPD</title>
+    <link>http://localhost:1313/joaobuarque-thinking/tags/lgpd/</link>
+    <pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/tags/lgpd/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Privacidade</title>
+    <link>http://localhost:1313/joaobuarque-thinking/tags/privacidade/</link>
+    <pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/tags/privacidade/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Segurança</title>
+    <link>http://localhost:1313/joaobuarque-thinking/tags/seguran%C3%A7a/</link>
+    <pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/tags/seguran%C3%A7a/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>TI</title>
+    <link>http://localhost:1313/joaobuarque-thinking/tags/ti/</link>
+    <pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/tags/ti/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Carreira</title>
+    <link>http://localhost:1313/joaobuarque-thinking/tags/carreira/</link>
+    <pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/tags/carreira/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
