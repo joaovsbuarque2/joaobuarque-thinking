@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/</loc><lastmod>2026-01-22T05:10:00-03:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/joaobuarque-thinking/categories/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://localhost:1313/joaobuarque-thinking/en/categories/"
@@ -11,9 +11,9 @@
                     hreflang="pt-br"
                     href="http://localhost:1313/joaobuarque-thinking/categories/"
                     /></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/cftv/</loc><lastmod>2026-01-22T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/cotidiano/</loc><lastmod>2026-01-22T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/</loc><lastmod>2026-01-22T05:10:00-03:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/joaobuarque-thinking/tags/cftv/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>http://localhost:1313/joaobuarque-thinking/categories/cotidiano/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>http://localhost:1313/joaobuarque-thinking/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://localhost:1313/joaobuarque-thinking/en/"
@@ -22,9 +22,9 @@
                     hreflang="pt-br"
                     href="http://localhost:1313/joaobuarque-thinking/"
                     /></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/posts/</loc><lastmod>2026-01-22T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/reflex%C3%A3o/</loc><lastmod>2026-01-22T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/</loc><lastmod>2026-01-22T05:10:00-03:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/joaobuarque-thinking/posts/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>http://localhost:1313/joaobuarque-thinking/tags/reflex%C3%A3o/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>http://localhost:1313/joaobuarque-thinking/tags/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://localhost:1313/joaobuarque-thinking/en/tags/"
@@ -33,10 +33,10 @@
                     hreflang="pt-br"
                     href="http://localhost:1313/joaobuarque-thinking/tags/"
                     /></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/trabalho/</loc><lastmod>2026-01-22T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/trabalho/</loc><lastmod>2026-01-22T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/vigil%C3%A2ncia/</loc><lastmod>2026-01-22T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/posts/vigilancia-constante/</loc><lastmod>2026-01-22T05:10:00-03:00</lastmod></url><url>
+            <loc>http://localhost:1313/joaobuarque-thinking/tags/trabalho/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>http://localhost:1313/joaobuarque-thinking/categories/trabalho/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>http://localhost:1313/joaobuarque-thinking/tags/vigil%C3%A2ncia/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>http://localhost:1313/joaobuarque-thinking/posts/vigilancia-constante/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
             <loc>http://localhost:1313/joaobuarque-thinking/tags/aprendizado/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
             <loc>http://localhost:1313/joaobuarque-thinking/categories/carreira/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
             <loc>http://localhost:1313/joaobuarque-thinking/posts/colocar-no-ar/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
