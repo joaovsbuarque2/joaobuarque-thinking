@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Desenvolvimento - Tag - Jardim de Ideias</title>
-        <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/desenvolvimento/</link>
+        <link>http://localhost:1313/joaobuarque-thinking/tags/desenvolvimento/</link>
         <description>Desenvolvimento - Tag - Jardim de Ideias</description>
-        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 19 Jan 2026 15:00:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/desenvolvimento/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Mon, 19 Jan 2026 15:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/joaobuarque-thinking/tags/desenvolvimento/" rel="self" type="application/rss+xml" /><item>
     <title>Currículo - João Buarque</title>
-    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/</link>
+    <link>http://localhost:1313/joaobuarque-thinking/posts/sobre-mim/</link>
     <pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate>
     <author>João Buarque</author>
-    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/</guid>
+    <guid>http://localhost:1313/joaobuarque-thinking/posts/sobre-mim/</guid>
     <description><![CDATA[João Vitor da Silva Buarque Desenvolvedor Front-End &amp; Mobile Desenvolvedor com mais de 4 anos de experiência no ecossistema JavaScript, especializado em React e React Native para aplicações web e mobile em produção.
 🚀 Tech Stack Frontend React, JavaScript (ES6+), TypeScript HTML5, CSS3/SASS Next.js, Vue.js (conhecimento) Mobile React Native - Apps em produção para iOS e Android Backend Node.js, Express Go (Golang) - APIs e microserviços Ferramentas &amp; Metodologias Git, GitHub, GitLab VSCode, Scrum/Kanban Docker (básico) 💼 Experiência Profissional Klever | Desenvolvedor Front-End/Mobile Jun 2020 – Jan 2023]]></description>
 </item>

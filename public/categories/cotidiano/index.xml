@@ -1,7 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Cotidiano - Categoria - Jardim de Ideias</title>
-        <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cotidiano/</link>
+        <link>http://localhost:1313/joaobuarque-thinking/categories/cotidiano/</link>
         <description>Cotidiano - Categoria - Jardim de Ideias</description>
-        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cotidiano/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Thu, 22 Jan 2026 05:10:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/joaobuarque-thinking/categories/cotidiano/" rel="self" type="application/rss+xml" /><item>
+    <title>Vigilância constante não é sinônimo de cuidado</title>
+    <link>http://localhost:1313/joaobuarque-thinking/posts/vigilancia-constante/</link>
+    <pubDate>Thu, 22 Jan 2026 05:10:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>http://localhost:1313/joaobuarque-thinking/posts/vigilancia-constante/</guid>
+    <description><![CDATA[Existe uma diferença grande entre trabalhar com vigilância e viver sob vigilância.
+No papel, a função é clara: observar, monitorar, agir quando necessário. Na prática, o que se constrói muitas vezes é um ambiente onde tudo é visto, tudo é cobrado, mas quase nada é absorvido como contexto.
+Trabalho com CFTV. Faço rondas. O estado de atenção é contínuo. Não existe exatamente um “intervalo mental”, porque mesmo quando o corpo para, o olhar precisa continuar disponível.]]></description>
+</item>
+</channel>
 </rss>
