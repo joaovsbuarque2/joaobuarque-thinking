@@ -1,42 +1,56 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Posts - Jardim de Ideias</title>
-        <link>http://localhost:1313/joaobuarque-thinking/posts/</link>
+        <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/</link>
         <description>Posts | Jardim de Ideias</description>
-        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 23 Jan 2026 05:10:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/joaobuarque-thinking/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 06 Feb 2026 01:10:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Quando decidem por você</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/quando-decidem-por-voce/</link>
+    <pubDate>Fri, 06 Feb 2026 01:10:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/quando-decidem-por-voce/</guid>
+    <description><![CDATA[Existem decisões que mudam pouca coisa na prática, mas dizem muito sobre o ambiente onde você está — sendo movido como peça..
+Essa foi uma delas.
+E peça não opina.
+Peça não negocia.
+Peça não tem contexto pessoal.
+Tudo começou como algo simples: uma conversa sobre troca de plantão. Nada fora do normal. Escala sempre muda, ajustes acontecem, pessoas saem de férias, buracos aparecem. Operacional puro.
+A proposta veio até mim.]]></description>
+</item>
+<item>
     <title>Vigilância constante não é sinônimo de cuidado</title>
-    <link>http://localhost:1313/joaobuarque-thinking/posts/vigilancia-constante/</link>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/vigilancia-constante/</link>
     <pubDate>Fri, 23 Jan 2026 05:10:00 -0300</pubDate>
     <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/posts/vigilancia-constante/</guid>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/vigilancia-constante/</guid>
     <description><![CDATA[Existe uma diferença grande entre trabalhar com vigilância e viver sob vigilância.
 No papel, a função é clara: observar, monitorar, agir quando necessário. Na prática, o que se constrói muitas vezes é um ambiente onde tudo é visto, tudo é cobrado, mas quase nada é absorvido como contexto.
 Trabalho com CFTV. Faço rondas. O estado de atenção é contínuo. Não existe exatamente um “intervalo mental”, porque mesmo quando o corpo para, o olhar precisa continuar disponível.]]></description>
 </item>
 <item>
     <title>Colocar no ar também é parte do processo</title>
-    <link>http://localhost:1313/joaobuarque-thinking/posts/colocar-no-ar/</link>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/colocar-no-ar/</link>
     <pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate>
     <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/posts/colocar-no-ar/</guid>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/colocar-no-ar/</guid>
     <description><![CDATA[Hoje eu consegui subir mais um site no ar usando GitHub Pages.
 Pode parecer algo simples — e tecnicamente é — mas, para mim, sempre carrega um peso maior do que apenas “fazer deploy”. Essa é a segunda página que eu publico dessa forma. A primeira foi meu currículo. Essa aqui é diferente. Essa aqui é mais pensamento do que vitrine.
 O joaobuarque-thinking nasce como um diário. Um jardim de ideias.]]></description>
 </item>
 <item>
     <title>Privacidade em Xeque: Shadow APIs e o Mercado Negro de Dados - Análise Detalhada</title>
-    <link>http://localhost:1313/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</link>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</link>
     <pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate>
     <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</guid>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</guid>
     <description><![CDATA[Minhas Impressões Após a Primeira Postagem no Medium Acabei de publicar minha primeira postagem no Medium sobre privacidade de dados e o mercado negro alimentado por falhas estruturais como Shadow APIs. Mas realista sobre o alcance. Meu LinkedIn e Medium não estão muito ativos ultimamente – na verdade, bem esquecidos –, então não espero que o post vá viral ou gere muito engajamento imediato. Em vez disso, vejo meu site pessoal como um diário online, um espaço onde posso postar minhas reflexões e pensamentos sem pressão.]]></description>
 </item>
 <item>
     <title>Currículo - João Buarque</title>
-    <link>http://localhost:1313/joaobuarque-thinking/posts/sobre-mim/</link>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/</link>
     <pubDate>Mon, 19 Jan 2026 15:00:00 -0300</pubDate>
     <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/posts/sobre-mim/</guid>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/</guid>
     <description><![CDATA[João Vitor da Silva Buarque Desenvolvedor Front-End &amp; Mobile Desenvolvedor com mais de 4 anos de experiência no ecossistema JavaScript, especializado em React e React Native para aplicações web e mobile em produção.
 🚀 Tech Stack Frontend React, JavaScript (ES6+), TypeScript HTML5, CSS3/SASS Next.js, Vue.js (conhecimento) Mobile React Native - Apps em produção para iOS e Android Backend Node.js, Express Go (Golang) - APIs e microserviços Ferramentas &amp; Metodologias Git, GitHub, GitLab VSCode, Scrum/Kanban Docker (básico) 💼 Experiência Profissional Klever | Desenvolvedor Front-End/Mobile Jun 2020 – Jan 2023]]></description>
 </item>

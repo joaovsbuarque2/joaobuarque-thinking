@@ -2,65 +2,72 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod><xhtml:link
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/autonomia/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/joaobuarque-thinking/en/categories/"
+                        href="https://joaovsbuarque2.github.io/joaobuarque-thinking/en/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="pt-br"
-                    href="http://localhost:1313/joaobuarque-thinking/categories/"
+                    href="https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/"
                     /></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/cftv/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/cotidiano/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod><xhtml:link
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cotidiano/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/decis%C3%A3o/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/escala/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/joaobuarque-thinking/en/"
+                        href="https://joaovsbuarque2.github.io/joaobuarque-thinking/en/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="pt-br"
-                    href="http://localhost:1313/joaobuarque-thinking/"
+                    href="https://joaovsbuarque2.github.io/joaobuarque-thinking/"
                     /></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/posts/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/reflex%C3%A3o/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod><xhtml:link
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/lideran%C3%A7a/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/parceria/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/quando-decidem-por-voce/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/reflex%C3%A3o/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/joaobuarque-thinking/en/tags/"
+                        href="https://joaovsbuarque2.github.io/joaobuarque-thinking/en/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="pt-br"
-                    href="http://localhost:1313/joaobuarque-thinking/tags/"
+                    href="https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/"
                     /></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/trabalho/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/trabalho/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/vigil%C3%A2ncia/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/posts/vigilancia-constante/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/aprendizado/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/carreira/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/posts/colocar-no-ar/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/github-pages/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/hugo/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/processo/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/projetos/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/dados/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/lgpd/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/privacidade/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/seguran%C3%A7a/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/tecnologia/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/ti/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/carreira/</loc><lastmod>2026-01-19T15:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/posts/sobre-mim/</loc><lastmod>2026-01-19T15:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/desenvolvimento/</loc><lastmod>2026-01-19T15:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/react/</loc><lastmod>2026-01-19T15:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/tags/react-native/</loc><lastmod>2026-01-19T15:00:00-03:00</lastmod></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/en/categories/carreira/</loc></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/cultura-pop/</loc></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/en/categories/cotidiano/</loc></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/en/</loc></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/categories/financas/</loc></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/en/categories/financas/</loc></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/en/categories/cultura-pop/</loc></url><url>
-            <loc>http://localhost:1313/joaobuarque-thinking/en/categories/tecnologia/</loc></url></urlset>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/trabalho/</loc><lastmod>2026-02-06T01:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/cftv/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/reflex%C3%A3o/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/trabalho/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/vigil%C3%A2ncia/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/vigilancia-constante/</loc><lastmod>2026-01-23T05:10:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/aprendizado/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/carreira/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/colocar-no-ar/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/github-pages/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/hugo/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/processo/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/projetos/</loc><lastmod>2026-01-20T21:30:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/dados/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/lgpd/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/privacidade/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/privacidade-shadow-apis-detalhada/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/seguran%C3%A7a/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/tecnologia/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/ti/</loc><lastmod>2026-01-20T12:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/carreira/</loc><lastmod>2026-01-19T15:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/posts/sobre-mim/</loc><lastmod>2026-01-19T15:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/desenvolvimento/</loc><lastmod>2026-01-19T15:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/react/</loc><lastmod>2026-01-19T15:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/react-native/</loc><lastmod>2026-01-19T15:00:00-03:00</lastmod></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/en/categories/carreira/</loc></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/cultura-pop/</loc></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/en/categories/cotidiano/</loc></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/en/</loc></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/categories/financas/</loc></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/en/categories/financas/</loc></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/en/categories/cultura-pop/</loc></url><url>
+            <loc>https://joaovsbuarque2.github.io/joaobuarque-thinking/en/categories/tecnologia/</loc></url></urlset>

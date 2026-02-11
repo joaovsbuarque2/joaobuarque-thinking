@@ -1,86 +1,86 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - Jardim de Ideias</title>
-        <link>http://localhost:1313/joaobuarque-thinking/tags/</link>
+        <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/</link>
         <description>Tags - Tag - Jardim de Ideias</description>
-        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 23 Jan 2026 05:10:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/joaobuarque-thinking/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Fri, 06 Feb 2026 01:10:00 -0300</lastBuildDate><atom:link href="https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Autonomia</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/autonomia/</link>
+    <pubDate>Fri, 06 Feb 2026 01:10:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/autonomia/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Decisão</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/decis%C3%A3o/</link>
+    <pubDate>Fri, 06 Feb 2026 01:10:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/decis%C3%A3o/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Escala</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/escala/</link>
+    <pubDate>Fri, 06 Feb 2026 01:10:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/escala/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Liderança</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/lideran%C3%A7a/</link>
+    <pubDate>Fri, 06 Feb 2026 01:10:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/lideran%C3%A7a/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Parceria</title>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/parceria/</link>
+    <pubDate>Fri, 06 Feb 2026 01:10:00 -0300</pubDate>
+    <author>João Buarque</author>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/parceria/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Cftv</title>
-    <link>http://localhost:1313/joaobuarque-thinking/tags/cftv/</link>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/cftv/</link>
     <pubDate>Fri, 23 Jan 2026 05:10:00 -0300</pubDate>
     <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/tags/cftv/</guid>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/cftv/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Reflexão</title>
-    <link>http://localhost:1313/joaobuarque-thinking/tags/reflex%C3%A3o/</link>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/reflex%C3%A3o/</link>
     <pubDate>Fri, 23 Jan 2026 05:10:00 -0300</pubDate>
     <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/tags/reflex%C3%A3o/</guid>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/reflex%C3%A3o/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Trabalho</title>
-    <link>http://localhost:1313/joaobuarque-thinking/tags/trabalho/</link>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/trabalho/</link>
     <pubDate>Fri, 23 Jan 2026 05:10:00 -0300</pubDate>
     <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/tags/trabalho/</guid>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/trabalho/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Vigilância</title>
-    <link>http://localhost:1313/joaobuarque-thinking/tags/vigil%C3%A2ncia/</link>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/vigil%C3%A2ncia/</link>
     <pubDate>Fri, 23 Jan 2026 05:10:00 -0300</pubDate>
     <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/tags/vigil%C3%A2ncia/</guid>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/vigil%C3%A2ncia/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Aprendizado</title>
-    <link>http://localhost:1313/joaobuarque-thinking/tags/aprendizado/</link>
+    <link>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/aprendizado/</link>
     <pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate>
     <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/tags/aprendizado/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Github-Pages</title>
-    <link>http://localhost:1313/joaobuarque-thinking/tags/github-pages/</link>
-    <pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate>
-    <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/tags/github-pages/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Hugo</title>
-    <link>http://localhost:1313/joaobuarque-thinking/tags/hugo/</link>
-    <pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate>
-    <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/tags/hugo/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Processo</title>
-    <link>http://localhost:1313/joaobuarque-thinking/tags/processo/</link>
-    <pubDate>Tue, 20 Jan 2026 21:30:00 -0300</pubDate>
-    <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/tags/processo/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Dados</title>
-    <link>http://localhost:1313/joaobuarque-thinking/tags/dados/</link>
-    <pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate>
-    <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/tags/dados/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>LGPD</title>
-    <link>http://localhost:1313/joaobuarque-thinking/tags/lgpd/</link>
-    <pubDate>Tue, 20 Jan 2026 12:00:00 -0300</pubDate>
-    <author>João Buarque</author>
-    <guid>http://localhost:1313/joaobuarque-thinking/tags/lgpd/</guid>
+    <guid>https://joaovsbuarque2.github.io/joaobuarque-thinking/tags/aprendizado/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
